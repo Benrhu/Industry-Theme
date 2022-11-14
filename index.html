@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.84.0" />
+    <link rel="stylesheet" href="/client/css/style.css">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.0/mdb.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link href="/client/css/carousel.css" rel="stylesheet" />
+    <title>BlisPack S.L | Expertos en maquinaria de envasado</title>
+  </head>
+  <body>
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+          <!-- Toggle button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+
+          <!-- Collapsible wrapper -->
+          <div class=" navbar-collapse" id="navbarSupportedContent">
+            <!-- Navbar brand -->
+            <a class="navbar-brand mt-2 mt-lg-0" href="#">
+              <img
+              src="/client/img/logo_blispack.png"
+              height="55"
+              alt="MDB Logo"
+              loading="lazy"
+            />
+            </a>
+            <!-- Left links -->
+            <ul class="navbar-nav navbar-collapse justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link" href="#about">Quiénes somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Equipo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/client/contact.html">Contacto</a>
+              </li>
+            </ul>
+            <!-- Left links -->
+          </div>
+          <!-- Collapsible wrapper -->
+        </div>
+        <!-- Container wrapper -->
+      </nav>
+      <!-- Navbar -->
+    </header>
+
+    <main>
+      <!-- Carousel wrapper -->
+      <div
+        id="carouselVideoExample"
+        class="carousel slide carousel-fade"
+        data-mdb-ride="carousel"
+      >
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-mdb-target="#carouselVideoExample"
+            data-mdb-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-mdb-target="#carouselVideoExample"
+            data-mdb-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-mdb-target="#carouselVideoExample"
+            data-mdb-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+
+        <!-- Inner -->
+        <div class="carousel-inner">
+          <!-- Single item -->
+          <div class="carousel-item active">
+            <video class="img-fluid" autoplay loop muted>
+              <source src="/client//videos/factory.mp4" type="video/mp4" />
+            </video>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Expertos en maquinaria de envasado</h5>
+            </div>
+          </div>
+        <!-- Inner -->
+
+        <!-- Controls -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-mdb-target="#carouselVideoExample"
+          data-mdb-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-mdb-target="#carouselVideoExample"
+          data-mdb-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Carousel wrapper -->
+
+      <div class="px-4 py-5 pb-5 my-5 text-center" id="about">
+        <h1 class="display-5 fw-bold">BlisPack S.L</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">
+            BLISPACK es una empresa con mas de 15 años de experiencia, 
+            especializada en el envasado por blister, moldeo por vacio, 
+            manipulación, retractilado, flow-pack, 
+            almacenaje y distribución de productos de terceros.
+          </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-primary btn-lg px-4 gap-3">
+              Ver el catálogo
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <hr class="featurette-divider" />
+
+      <div>
+        <h1 class="display-5 fw-bold text-center pb-5" id="team">El equipo</h1>
+      </div>
+      <div class="container marketing">
+        <div class="row">
+          <div class="col-lg-4">
+            <svg
+              class="bd-placeholder-img rounded-circle"
+              width="140"
+              height="140"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 140x140"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <title></title>
+              <rect width="100%" height="100%" fill="#777" />
+              <text x="50%" y="50%" fill="#777" dy=".3em"></text>
+            </svg>
+
+            <h2>CEO</h2>
+            <p>
+              Le respaldan más de 20 años en la industria.
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <svg
+              class="bd-placeholder-img rounded-circle"
+              width="140"
+              height="140"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 140x140"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#777" />
+              <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+            </svg>
+
+            <h2>Jefe de ventas</h2>
+            <p>
+              Le respaldan más de 20 años en la industria.
+            </p>
+            <p>
+              <a class="btn btn-secondary" href="#">View details &raquo;</a>
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <svg
+              class="bd-placeholder-img rounded-circle"
+              width="140"
+              height="140"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 140x140"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#777" />
+              <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+            </svg>
+
+            <h2>Jefe de producción</h2>
+            <p>
+              Le respaldan más de 20 años en la industria.
+            </p>
+            <p>
+              <a class="btn btn-secondary" href="#">View details &raquo;</a>
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+        </div>
+        <!-- /.row -->
+
+        <hr class="featurette-divider" />
+
+        <h1 class="display-5 fw-bold text-center" id="services">Servicios</h1>
+
+        <div class="row featurette pt-5">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">
+              Alta frecuencia
+            </h2>
+            <p class="lead">
+              El blister sellado por alta frecuencia, por su alta inviolabilidad y seguridad contra robo, está indicado para productos comercializados en grandes superficies.
+            </p>
+            <p class="lead">
+              Por su alta transparencia, permite la visión total y clara del artículo, asi como del folleto informativo y permite el aislamiento ambiental completo del mismo, para su seguridad y durabilidad.
+            </p>
+            <p class="lead">
+              El envasado por blister de AF, da una mayor presencia y calidad respecto a la presentación de otros productos de su competencia.
+            </p>
+          </div>
+          <div class="col-md-5 carousel">
+            <!-- Gallery -->
+        <div class="row">
+          <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+            <img
+              src="/client/img/001.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Boat on Calm Water"
+            />
+
+            <img
+              src="/client/img/005.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Wintry Mountain Landscape"
+            />
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+              src="/client/img/002.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Mountains in the Clouds"
+            />
+
+            <img
+              src="/client/img/003.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Boat on Calm Water"
+            />
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+              src="/client/img/004.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Waves at Sea"
+            />
+
+            <img
+              src="/client/img/006.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Yosemite National Park"
+            />
+          </div>
+        </div>
+<!-- Gallery -->
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">
+              Termosellado
+              <span class="text-muted"></span>
+            </h2>
+            <p class="lead">
+              Consta de una burbuja de plástico termosellada a un cartón, con un tratamiento específico para el sellado de la burbuja, dicho cartón puede tener diferentes gruesos, según sus necesidades.
+            </p>
+            <p class="lead">
+              Su aplicación mas generalizada es para productos de kiosco y de grandes superficies.
+            </p>
+            <p class="lead">
+              Debido a su menor inviolabilidad, este tipo de blister no es adecuado para todos los productos.
+            </p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <div class="row">
+              <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <img
+                  src="/client/img/002 (1).jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Boat on Calm Water"
+                />
+    
+                <img
+                  src="/client/img/termosellado.jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Wintry Mountain Landscape"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">
+              Bandejas de <span class="text-muted">Termoconformado</span>
+            </h2>
+            <p class="lead">
+              Las bandejas termoconformadas pueden ser fabricadas con formas y medidas adaptadas a casi todas las necesidades, dando la posibilidad de conferir a sus productos la mejor imagen para su exposición y comercialización.
+            </p>
+            <p class="lead">
+              También se utilizan como soporte a botellines o piezas de todo tipo.
+            </p>
+            <p class="lead">
+              Otra de nuestras especialidades es la fabricación de bandejas con material flocado para el interior de cajas de cosmética y perfumería.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <div class="row">
+              <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <img
+                  src="/client/img/001 (1).jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Boat on Calm Water"
+                />
+              </div>
+    
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                  src="/client/img/002 (2).jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Mountains in the Clouds"
+                />
+    
+                <img
+                  src="/client/img/003 (1).jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Boat on Calm Water"
+                />
+              </div>
+    
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                  src="/client/img/004 (1).jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Waves at Sea"
+                />
+                <img
+                  src="/client/img/005 (1).jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Waves at Sea"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">
+              Expositores
+              <span class="text-muted"></span>
+            </h2>
+            <p class="lead">
+              Expositores destinados principalmente a la venta de productos de mostrador, permitiendo una excelente presentación y que el cliente se sirva directamente.
+            </p>
+            <p class="lead">
+              Pueden fabricarse en cualquier forma y color, con un espesor máximo de 2 mm., dándole una dureza y duración practicamente ilimitada.
+            </p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <div class="row">
+              <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <img
+                  src="/client/img/001 (2).jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Boat on Calm Water"
+                />
+              </div>
+    
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                  src="/client/img/002 (3).jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Mountains in the Clouds"
+                />
+    
+                <img
+                  src="/client/img/003 (2).jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Boat on Calm Water"
+                />
+              </div>
+    
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                  src="/client/img/004 (2).jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Waves at Sea"
+                />
+                <img
+                  src="/client/img/005 (2).jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Waves at Sea"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">
+              Flow-Pack
+            </h2>
+            <p class="lead">
+              El Flow-Pack es un sistema de envasado con film de polipropileno que, al permitir contener diversos artículos, está indicado especialmente para el envasado de cromos, revistas con coleccionables, etc. e incluso, al tener la posibilidad de ir dotado con colgador, puede emplearse en expositores de venta.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <div class="row">
+              <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <img
+                  src="/client/img/001 (3).jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Boat on Calm Water"
+                />
+              </div>
+    
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                  src="/client/img/002 (4).jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Mountains in the Clouds"
+                />
+    
+                <img
+                  src="/client/img/003 (3).jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Boat on Calm Water"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">
+              Retractilado
+              <span class="text-muted"></span>
+            </h2>
+            <p class="lead">
+              Sistema de precintado de sus productos con un film, generalmente transparente y de fácil desmontaje, que le permite el precintado o agrupación de elementos asi como la conservación de una forma eficaz y duradera.
+            </p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <div class="row">
+              <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <img
+                  src="/client/img/001 (4).jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Boat on Calm Water"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">
+              Manipulado
+            </h2>
+            <p class="lead">
+              Manipulado de cualquier producto. Construimos su producto final a partir de la clasificación, montaje y envasado de varios componentes.
+            </p>
+            <p class="lead">
+              Al ser fabricantes de blisters y retractilados, también podemos componer conjuntos de varios elementos, para su exposición y venta, tanto coleccionables para kiosco como promociones comerciales.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <div class="row">
+              <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <img
+                  src="/client/img/001 (5).jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Boat on Calm Water"
+                />
+              </div>
+    
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                  src="/client/img/002 (5).jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Mountains in the Clouds"
+                />
+    
+                <img
+                  src="/client/img/003 (4).jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Boat on Calm Water"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">
+              Blisters especiales
+              <span class="text-muted"></span>
+            </h2>
+            <p class="lead">
+              Blisters especiales ideales para campañas publicitarias o para el envasado de piezas de cualquier tipo.
+            </p>
+            <p class="lead">
+              Pueden estar compuestos de dos o más burbujas y, al estar sellados por alta frecuencia, impiden la pérdida o robo de alguno de sus componentes.
+            </p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <div class="row">
+              <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <img
+                  src="/client/img/001 (6).jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Boat on Calm Water"
+                />
+              </div>
+    
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                  src="/client/img/002 (6).jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Mountains in the Clouds"
+                />
+    
+                <img
+                  src="/client/img/003 (5).jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Boat on Calm Water"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">
+              Almacenaje y distribución
+            </h2>
+            <p class="lead">
+              Blispack, SL, posee almacenes con una superficie aproximada de 1500 m2 para el almacenaje de productos destinados a la fabricación o al depósito de los mismos.
+            </p>
+            <p class="lead">
+              Así mismo, podemos ocuparnos del envio a sus clientes, tanto en camiones completos como por paquetería.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <div class="row">
+              <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <img
+                  src="/client/img/001 (7).jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Boat on Calm Water"
+                />
+              </div>
+    
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                  src="/client/img/002 (7).jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Mountains in the Clouds"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+      </div>
+      <footer class="container">
+        <p class="float-end"><a href="#">Volver hacía arriba</a></p>
+        <p>
+          &copy; 2007–2022 BlisPack S.L &middot;
+        </p>
+      </footer>
+    </main>
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
